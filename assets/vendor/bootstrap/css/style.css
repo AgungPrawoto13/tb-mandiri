@@ -1,0 +1,788 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+body {
+    font-family: 'Nunito', sans-serif;
+    color: black;
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+body.offcanvas-active {
+    overflow: hidden;
+}
+
+nav button.navbar-toggler {
+    border: none !important;
+}
+
+.offcanvas-header {
+    display: none;
+}
+
+.nav-item a {
+    text-align: center !important;
+    color: whitesmoke !important;
+}
+
+.navbar-nav .active a,
+.navbar-nav .active1 a:hover {
+    box-shadow: inset 0 -2px 0 0 red !important;
+    transition: .15s;
+}
+
+nav.black {
+    background-color: black !important;
+    transition: .5s;
+    height: cover;
+}
+
+.navbar-brand img {
+    transition: .5s;
+}
+
+span.navbar-toggler-icon {
+    color: white !important;
+}
+
+/*mengatur gambar agar ukuran jadi sama*/
+.sama{
+    
+}
+.isi p{
+	font-family: 'Noto Sans', sans-serif;
+	font-size:28px;
+}
+.nunito{
+	font-family: 'Nunito', sans-serif;
+	font-size: 20px;
+}
+.nunito1{
+	font-size: 36px;
+	font-family: 'Nunito', sans-serif;
+}
+.nunito2{
+	font-size: 24px;
+	font-family: 'Nunito', sans-serif;
+}
+.nunito3{
+	font-size: 18px;
+	font-family: 'Nunito', sans-serif;
+}
+.nunito4{
+	font-size: 14px;
+	font-family: 'Nunito', sans-serif;
+}
+.nunito5{
+	font-size: 16px;
+	font-family: 'Nunito', sans-serif;
+}
+.nunito6{
+	font-size: 10px;
+	font-family: 'Nunito', sans-serif;
+}
+#Produk .card .nunito {
+    color: #424242 !important;
+}
+.roboto{
+	font-size: 36px;
+	font-family: 'Roboto', sans-serif;
+}
+.roboto1{
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+}
+.roboto2{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+.roboto3{
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+}
+.roboto4{
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+}
+.carousel-inner{
+	width: 40%;
+	margin:auto;
+}
+.carousel-caption{
+	margin-top: 20%;
+}
+.noto-sans{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 28px;
+}
+.noto-sans1{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 40px;
+}
+.noto-sans2{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 36px;
+}
+.noto-sans3{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 18px;
+}
+.noto-sans4{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 20px;
+}
+.noto-sans5{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 40px;
+}
+.noto-sans6{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 24px;
+}
+.noto-sans7 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 30px;
+}
+.icon,
+.nunito,
+.nunito1,
+.nunito2,
+.nunito3,
+.nunito4,
+.nunito5,
+.nunito6,
+.roboto,
+.roboto1,
+.roboto2,
+.roboto3,
+.roboto4,
+.noto-sans,
+.noto-sans1,
+.noto-sans2,
+.noto-sans3,
+.noto-sans4,
+.noto-sans5,
+.noto-sans6,
+.noto-sans7 {
+    transition: .15s;
+}
+
+.col-md-8 img,
+.col-xl-6 img {
+    width: 728px;
+}
+
+.col-xl-6 .card {
+    padding: 5%;
+    margin-top: 15%;
+}
+
+.isi{
+	height: auto;
+	margin-top: 40%;
+	font-family: 'Noto Sans', sans-serif; 
+}
+.jumbotron{
+	width: auto;
+}
+.carousel-control-prev, .carousel-control-next{
+	width: 2%;
+	height: 22px;
+	margin:auto;
+}
+.icon{
+	max-height: 68px;
+}
+.col-md-9{
+	margin-top: 12%;
+}
+html,body{
+	scroll-behavior: smooth;
+}
+.full{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+.carousel-item .awal{
+	height: 660px;
+	filter : brightness(45%);
+}
+.lorem{
+	margin-top: -5%;
+}
+
+.carousel-caption {
+    margin-top: 200px !important;
+}
+
+.kotak {
+    margin-left: 39%;
+    margin-top: -40%;
+}
+.kotak1 {
+    margin-left: 49%;
+    margin-top: -25% !important;
+}
+
+#TentangKami .bg-danger {
+    background-color: #C3242A !important;
+}
+
+#keunggulan-item .card,
+#Produk .card {
+    border: 0 !important;
+}
+
+#keunggulan-item .line {
+    background-color: #CAC7C7 !important;
+    width: 2px;
+    height: 138px;
+}
+
+.card .card-img {
+    height: 102px !important;
+}
+
+.card img.card-img-top.img-1 {
+    height: 68px;
+    width: 132px;
+}
+
+.card img.card-img-top.img-2 {
+    height: 101px;
+    width: 88px;
+}
+
+.card img.card-img-top.img-3 {
+    height: 95px;
+    width: 112px;
+}
+
+#Produk a.btn {
+    width: 149px !important;
+    height: 53px !important;
+    border: none !important;
+    background-color: #E31E25 !important;
+    padding: 13px 20px !important;
+}
+
+.carousel-indicators {
+    position: inherit !important;
+}
+
+#Komen .carousel-indicators {
+    margin-right: 10%;
+    margin-top: 10px;
+}
+
+.carousel-indicators li {
+    width: 8px;
+    height: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 50%;
+    background-color: #5A5A5A;
+}
+.gambar {
+    height: 337px !important;
+    width: 337px !important;
+}
+
+#Komen .carousel-inner,
+#Komen .carousel-item,
+#Komen .carousel-item .card {
+    border: 0 !important;
+    width: 775px !important;
+    transition: .5s;
+}
+
+#Kontak a.btn {
+    background-color: #E31E25 !important;
+    width: 149px !important;
+    height: 53px !important;
+    border: 0 !important;
+    border-radius: 3px !important;
+    padding: 13px 32px !important;
+}
+
+footer.jumbotron {
+    background-color: #0D0C0C !important;
+    padding-bottom: 23px !important;
+}
+
+footer .input-group-text {
+    width: 31px !important;
+    background-color: #FD0000 !important;
+    border: 0 !important;
+    border-radius: 5px;
+    padding: 0px !important;
+}
+
+footer .form-control {
+    color: black !important;
+}
+@media only screen and (width: 1366px) {
+    .carousel-item img {
+        height: 300px;
+    }
+    .padding {
+        padding: 3rem !important;
+    }
+    .lokasi{
+		margin-left: 60%;
+		margin-top: -28%;
+	}
+	.kanan{
+		margin-left:auto !important;
+	}
+    .kata2{
+        margin-left: 1.5rem !important;
+    }
+    .jarakatas{
+        margin-top:3rem !important;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .tengah{
+        margin-top:3rem !important;
+    }
+    .kotak1 {
+        margin-left: 5% !important;
+        margin-top: 5% !important;
+    }
+    .padding {
+        padding: 3rem !important;
+    }
+    .kanan{
+		margin-left:auto !important;
+	}
+	/*.geser{
+		margin-left: 3rem !important;
+	}*/
+	.geser_kanan{
+		margin-right: 3rem !important;
+	}
+	.kotak{
+		margin-left: 43.2%;
+		margin-top: -38%;
+	}
+	.carousel-item img{
+		height: 300px;
+	}
+	.teks{
+		top:-8%;
+	}
+    .jarak{
+    	margin-top: 1.5rem !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .center{
+        margin: auto;
+    }
+    .geserlagi{
+        margin-left: 19%;
+    }
+	.digeser{
+		margin-left:50%;
+		margin-top: -5%;
+	}
+	
+    .center_produk{
+        margin-left: 25%;
+    }
+    .offcanvas-header {
+        display: block;
+    }
+    .navbar-collapse {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 100%;
+        width: 100%;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        overflow-y: auto;
+        visibility: hidden;
+        background-color: black;
+        transition: visibility .2s ease-in-out, transform .2s ease-in-out;
+    }
+    .navbar-collapse.show {
+        visibility: visible;
+        transform: translateX(-100%);
+    }
+    .navbar-nav .nav-item a {
+        margin-right: -4px;
+    }
+    nav a.navbar-brand img {
+        width: 106px !important;
+        margin-left: 0 !important;
+    }
+    .collapse ul.navbar-nav {
+        width: 30%;
+        margin: auto;
+    }
+    ul.navbar-nav {
+        height: 100%;
+    }
+    ul.navbar-nav li.nav-item {
+        margin: 15px auto !important;
+    }
+    .jumbotron .container-fluid #keunggulan {
+        text-align: center;
+    }
+    #Komen .carousel-inner,
+    #Komen .carousel-item,
+    #Komen .carousel-item .card {
+        width: 680px !important;
+    }
+    .jumbotron {
+        padding-bottom: 0 !important;
+    }
+    #Komen .noto-sans2 {
+        font-size: 32px;
+    }
+    #Kontak .noto-sans2 {
+        font-size: 24px !important;
+    }
+    #Kontak .nunito2 {
+        font-size: 18px !important;
+    }
+    #Kontak a.btn {
+        font-size: 14px !important;
+        width: 115px !important;
+        height: 31px !important;
+        padding: 6px 27px !important;
+    }
+    #fu.col-md-2 {
+        max-width: none !important;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .tengah{
+        text-align: center;
+    }
+	.poto{
+		margin-top: 55%;
+	}
+	.kata{
+		position: absolute;
+		margin-top: 71%;
+	}
+    .image{
+		width: 200% !important;
+		margin-left: -70%;
+	}
+    .geser1 {
+        margin-left: -2%;
+    }
+    .geser{
+    	width:122%;
+    }
+    .nunito{
+		font-family: 'Nunito', sans-serif;
+		font-size: 14px;
+	}
+	.nunito2{
+		font-family: 'Nunito', sans-serif;
+		font-size: 18px;
+	}
+    .noto-sans {
+        font-size: 24px;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    .kotak {
+        margin-top: -33%;
+    }
+    .noto-sans {
+        font-size: 24px;
+    }
+    .noto-sans1 {
+        font-size: 30px;
+    }
+    .kiri {
+        text-align: left !important;
+    }
+    .noto-sans4 {
+        font-size: 12px;
+    }
+    .noto-sans2{
+		font-family: 'Noto Sans', sans-serif;
+		font-size: 24px;
+	}
+	 .noto-sans6{
+		font-family: 'Noto Sans', sans-serif;
+		font-size: 18px;
+	}
+    #TentangKami .nunito3 {
+        font-size: 14px;
+        font-family: 'Nunito', sans-serif;
+    }
+    .carousel-item img.gambar {
+        height: 280px !important;
+        width: 280px !important;
+    }
+    .carousel-item .noto-sans7 {
+        font-size: 24px;
+    }
+    .carousel-item .nunito2 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .carousel-item img.gambar {
+        height: 250px !important;
+        width: 250px !important;
+    }
+    .carousel-item .noto-sans7 {
+        font-size: 20px;
+    }
+    .carousel-item .nunito2 {
+        font-size: 16px;
+    }
+    #Komen .carousel-inner,
+    #Komen .carousel-item,
+    #Komen .carousel-item .card {
+        width: 450px !important;
+    }
+    #Komen .col-md-12 {
+        text-align: center !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #tele .nunito4.mr-4 {
+        margin-right: 15% !important;
+        margin-left: 15% !important;
+    }
+    #fu.col-md-2 {
+        max-width: 25% !important;
+        padding-left: 2px !important;
+    }
+    #fu .form-control {
+        padding: 6px 8px !important;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .tengah{
+        text-align: inherit;
+    }
+    .geserlagi{
+        margin-left: 0;
+    }
+	.poto1{
+		margin-top: 150%;
+	}
+    .kata2{
+        margin-left: 1.5rem !important;
+    }
+    footer {
+        text-align: center !important;
+    }
+    footer .row {
+        margin-top: 30px !important;
+    }
+    footer .row .text-center,
+    footer #Alamat .nunito4 {
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+    footer #Alamat .nunito4 {
+        line-height: 25px !important;
+        margin-bottom: 32px !important;
+    }
+    footer #Alamat,
+    footer #Telp {
+        margin-top: 40px !important;
+    }
+    footer #Telp .nunito5,
+    footer #Telp .nunito4,
+    footer #yt .nunito5 {
+        margin-bottom: 10px !important;
+    }
+    footer #Alamat .nunito3 {
+        font-size: 16px !important;
+    }
+    #cr {
+        margin-top: 54px !important;
+    }
+    #cr .nunito5 {
+        font-size: 10px !important;
+    }
+    #yt .input-group.w-25 {
+        width: 30% !important;
+    }
+    #yt button.form-control {
+        font-size: 8px !important;
+    }
+}
+
+@media only screen and (max-width: 485px) {
+    .produk_center{
+        margin-left: 16.666667%;
+    }
+    .digeser{
+        margin-left:50%;
+        margin-top: -8%;
+    }
+    #Komen .noto-sans2 {
+        font-size: 24px;
+    }
+    .collapse ul.navbar-nav {
+        width: 40%;
+        margin: auto;
+    }
+    .carousel-item img.gambar {
+        height: 200px !important;
+        width: 200px !important;
+    }
+    .carousel-item .noto-sans7 {
+        font-size: 18px;
+    }
+    .carousel-item .nunito2 {
+        font-size: 14px;
+    }
+    #Komen .carousel-inner,
+    #Komen .carousel-item,
+    #Komen .carousel-item .card {
+        width: 320px !important;
+    }
+    #Komen .col-md-12 {
+        text-align: center !important;
+    }
+    #Komen .carousel-inner,
+    #Komen .carousel-item,
+    #Komen .carousel-item .card {
+        width: 360px !important;
+    }
+}
+
+@media only screen and (max-width: 435px) {
+    #keunggulan .noto-sans2 {
+        font-size: 24px;
+    }
+    #keunggulan-item .col-sm-12.mt-5 {
+        margin-top: 80px !important;
+    }
+    #keunggulan-item .nunito2 {
+        font-size: 18px !important;
+    }
+    #Produk .col-md-12.text-center#Judul {
+        text-align: left !important;
+    }
+    #Produk a.btn {
+        font-size: 14px;
+        width: 100px !important;
+        height: 33px !important;
+        padding: 7px 9px !important;
+    }
+    #Produk .noto-sans2 {
+        font-size: 24px !important;
+    }
+    #Produk .noto-sans6 {
+        font-size: 18px !important;
+    }
+    #Produk .nunito {
+        font-size: 14px !important;
+    }
+    #cr .nunito5 {
+        width: 132px !important;
+        font-size: 10px !important;
+        line-height: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #Komen .carousel-inner,
+    #Komen .carousel-item,
+    #Komen .carousel-item .card {
+        width: 300px !important;
+    }
+    #yt .form-control {
+        padding: 2px 4px !important;
+    }
+    #yt .input-group-text {
+        width: 25px !important;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .collapse ul.navbar-nav {
+        width: 50%;
+        margin: auto;
+    }
+    #keunggulan-item .card .card-title {
+        font-size: 18px !important;
+    }
+    #keunggulan-item .card img.img-1 {
+        height: 52px;
+        width: 100px;
+    }
+    #keunggulan-item .card img.img-2 {
+        height: 90px;
+        width: 81px;
+    }
+    #keunggulan-item .card img.img-3 {
+        height: 95px;
+        width: 112px;
+    }
+    #Produk .col-md-12.text-center#Judul {
+        text-align: left !important;
+    }
+    #yt .form-control {
+        padding: 2px 1px !important;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    #Komen .carousel-inner,
+    #Komen .carousel-item,
+    #Komen .carousel-item .card {
+        width: 250px !important;
+    }
+    #yt .input-group.w-25 {
+        width: 33% !important;
+    }
+}
+
+@media only screen and (max-width: 305px) {
+    .collapse ul.navbar-nav {
+        width: 60%;
+        margin: auto;
+    }
+    #yt .input-group.w-25 {
+        width: 36% !important;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    #Komen .carousel-inner,
+    #Komen .carousel-item,
+    #Komen .carousel-item .card {
+        width: 200px !important;
+    }
+    #yt .input-group.w-25 {
+        width: 40% !important;
+    }
+}
+
+@media only screen and (max-width: 260px) {
+    .collapse ul.navbar-nav {
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 260px) {
+    #yt .input-group.w-25 {
+        width: 45% !important;
+    }
+}
